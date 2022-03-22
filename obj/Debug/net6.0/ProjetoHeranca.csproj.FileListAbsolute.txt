@@ -1,0 +1,15 @@
+C:\Users\Carla\Desktop\ProjetoHeranca\obj\Debug\net6.0\ProjetoHeranca.csproj.AssemblyReference.cache
+C:\Users\Carla\Desktop\ProjetoHeranca\obj\Debug\net6.0\ProjetoHeranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carla\Desktop\ProjetoHeranca\obj\Debug\net6.0\ProjetoHeranca.AssemblyInfoInputs.cache
+C:\Users\Carla\Desktop\ProjetoHeranca\obj\Debug\net6.0\ProjetoHeranca.AssemblyInfo.cs
+C:\Users\Carla\Desktop\ProjetoHeranca\obj\Debug\net6.0\ProjetoHeranca.csproj.CoreCompileInputs.cache
+C:\Users\Carla\Desktop\ProjetoHeranca\bin\Debug\net6.0\ProjetoHeranca.exe
+C:\Users\Carla\Desktop\ProjetoHeranca\bin\Debug\net6.0\ProjetoHeranca.deps.json
+C:\Users\Carla\Desktop\ProjetoHeranca\bin\Debug\net6.0\ProjetoHeranca.runtimeconfig.json
+C:\Users\Carla\Desktop\ProjetoHeranca\bin\Debug\net6.0\ProjetoHeranca.dll
+C:\Users\Carla\Desktop\ProjetoHeranca\bin\Debug\net6.0\ProjetoHeranca.pdb
+C:\Users\Carla\Desktop\ProjetoHeranca\obj\Debug\net6.0\ProjetoHeranca.dll
+C:\Users\Carla\Desktop\ProjetoHeranca\obj\Debug\net6.0\refint\ProjetoHeranca.dll
+C:\Users\Carla\Desktop\ProjetoHeranca\obj\Debug\net6.0\ProjetoHeranca.pdb
+C:\Users\Carla\Desktop\ProjetoHeranca\obj\Debug\net6.0\ProjetoHeranca.genruntimeconfig.cache
+C:\Users\Carla\Desktop\ProjetoHeranca\obj\Debug\net6.0\ref\ProjetoHeranca.dll
