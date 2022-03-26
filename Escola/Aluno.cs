@@ -4,9 +4,9 @@ namespace ProjetoHeranca.Escola
     {
         public string CPF { get; }
         public string Nome { get; }
-        public DataTime DataDeNascimeto { get; }
+        public DateTime DataDeNascimento { get; }
 
-        public Aluno(string nome, DataTime dataNascimento, string CPF)
+        public Aluno(string nome, DateTime dataNascimento, string cpf)
         {
             Nome = nome;
             DataDeNascimento = dataNascimento;

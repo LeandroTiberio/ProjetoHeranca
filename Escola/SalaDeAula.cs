@@ -6,22 +6,22 @@ namespace ProjetoHeranca.Escola
         public string Serie { get; }
         public List<Aluno> Alunos { get; private set; }
         
-        public SalaDeaAula(string serie, List<Aluno> listaAlunosInicial, string professor)
+        public SalaDeAula(string serie, List<Aluno> listaAlunosInicial, string professor)
         {
             NomeProfessor = professor;
             Serie = serie;
             Alunos = listaAlunosInicial;
         }
-        public void AdicionarAluno(string nome, DataTime dataNascimento, string cpf){
+        public void AdicionarAluno(string nome, DateTime dataNascimento, string cpf){
             Alunos.Add(new Aluno(nome, dataNascimento, cpf));
         }
         public void AdicionarAluno(Aluno aluno){
-            Alunos.Add(aluno)
+            Alunos.Add(aluno);
         }
         public void RemoverAluno(string cpf){
             Alunos.RemoveAll(aluno => aluno.CPF == cpf);
         }
-        public void MudarProfessor(string nomeprofessor){
+        public void MudarProfessor(string nomeProfessor){
             NomeProfessor = nomeProfessor;
         }
     }

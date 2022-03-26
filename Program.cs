@@ -1,5 +1,24 @@
-﻿using ProjetoHeranca.Lanchonete;
+﻿using ProjetoHeranca.Escola;
 namespace ProjetoHeranca
+{
+    class program
+    {
+        public static void Main(string[] args){     
+            var secretaria = new Secretaria();
+            secretaria.CadastrarNovasTurmas();
+        }  
+    }
+
+}   
+
+
+
+
+
+
+
+
+/*namespace ProjetoHeranca
 {
     public class Program
 
@@ -16,17 +35,16 @@ namespace ProjetoHeranca
             Console.WriteLine("Seu troco é " + pedido.RealizarPagamento(100));
 
         }
- 
     }
 }
 
 using ProjetoHeranca.Lanchonete;
 namespace ProjetoHeranca
 {
-    public class Program
+    public class program
     {
 
-        static void Main(string[] args){
+        public static void ExerciciosLista();{
 
             var numeros = new List<int>();
             var numerosMaisDez = new List<int>();
@@ -54,12 +72,53 @@ namespace ProjetoHeranca
             var ordenadoDescendente = numeros.OrderByDescending(x => x < 5);
             var ordenadoDescendente = numeros.OrderBy(x => x);
 
-
+        
             Console.WriteLine("Finalizou");
+        }
+    }
+}
+ 
+
+using ProjetoHeranca.PetShop;
+namespace ProjetoHeranca
+{
+    public class program
+    {
+
+        public static void ExerciciosLista();{
+
+ 
+            var meuCachorro = new Cachorro("Vira-Lata", 1, 10);
+            var outroCacharro = new Cachorro("Pincher", 1, 3);
+            outroCachorro.Peso++;
+            var dataEHoraAtual = DateTime.now;
+            var dataEHoraDois = DateTime.now;
+            var dataEHoraTres = DateTime.now;
+            Console.WriteLine("Insira sua data em mes/dia/ano");
+            var dataDeNascimento = dataTime.Parse(Console.RedLine());
+            var datatimeEmString = dataDeNascimento.ToString("dd/MM/yyyy hh:mm.ss");
+            var diferenca = dataEHoraAtual.Subtract(dataEHoraMenosUmMes);
+            Console.WriteLine(diferenca.Days);
+
+            Console.WriteLine($"Você nasceu no dia: {dataDeNascimento.Day} do mês {dataDeNascimento.Month} e ano: {dataDeNascimentoDayOfWeek}");
+
+            Console.WriteLine("Finalizou")
 
         }
     }
+}*/
 
 
-}
+
+
+
+
+
+
+            
+
+
  
+
+
+
