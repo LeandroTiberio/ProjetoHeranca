@@ -2,13 +2,14 @@ namespace ProjetoHeranca.Escola
 {
     public class SalaDeAula
     {
-        public string NomeProfessor { get; private set; }
+        
         public string Serie { get; }
         public List<Aluno> Alunos { get; private set; }
+        public List<professor> Professor { get; private set; }
         
-        public SalaDeAula(string serie, List<Aluno> listaAlunosInicial, string professor)
+        public SalaDeAula(string serie, List<Aluno> listaAlunosInicial, List<Professor> primeirosProfessores)
         {
-            NomeProfessor = professor;
+            Professores = primeirosProfessores;
             Serie = serie;
             Alunos = listaAlunosInicial;
         }
@@ -21,8 +22,13 @@ namespace ProjetoHeranca.Escola
         public void RemoverAluno(string cpf){
             Alunos.RemoveAll(aluno => aluno.CPF == cpf);
         }
-        public void MudarProfessor(string nomeProfessor){
-            NomeProfessor = nomeProfessor;
+        public void AdicionarProfessor(string nome, DateTime dataNascimento, string cpf, string disciplina){
+            Professores.Add(new Professor (nome, dataNascimento, cpf, disciplina));
         }
+        public void AdicionarProfessor(Professor professor){
+            Professores.Add(professor);
+        }
+        public void RemoverProfessor(string cpf){
+            Professores.RemoveAll(professor => professor.CPF == cpf);
     }
 }
