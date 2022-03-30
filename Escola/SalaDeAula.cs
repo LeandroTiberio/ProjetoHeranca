@@ -5,7 +5,7 @@ namespace ProjetoHeranca.Escola
         
         public string Serie { get; }
         public List<Aluno> Alunos { get; private set; }
-        public List<professor> Professor { get; private set; }
+        public List<Professor> Professores { get; private set; }
         
         public SalaDeAula(string serie, List<Aluno> listaAlunosInicial, List<Professor> primeirosProfessores)
         {
@@ -30,5 +30,6 @@ namespace ProjetoHeranca.Escola
         }
         public void RemoverProfessor(string cpf){
             Professores.RemoveAll(professor => professor.CPF == cpf);
+        }
     }
 }

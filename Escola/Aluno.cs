@@ -1,16 +1,13 @@
 namespace ProjetoHeranca.Escola
 {
-    public class Aluno
+    public class Aluno : Pessoa
     {
-        public string CPF { get; }
-        public string Nome { get; }
-        public DateTime DataDeNascimento { get; }
+        public Aluno(string nome, DateTime dataNascimento, string cpf) : base (nome, dataNascimento, cpf)
 
-        public Aluno(string nome, DateTime dataNascimento, string cpf)
         {
-            Nome = nome;
-            DataDeNascimento = dataNascimento;
-            CPF = cpf;
+        }
+        public Aluno(Pessoa pessoa) : base(pessoa.Nome, pessoa.DataDeNascimento, pessoa.CPF)
+        {
         }
     }
 }
